@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier Prime', monospace;
+}
+body{
+    background-color: rgb(218, 247, 166);
+}
+.nav-color{
+    background-color: rgb(130, 224, 170);
+}
+.grilla{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+.item-1{
+    display: flex;
+    justify-content: center;
+}
+.item-2{
+  
+   
+}
+.item-3{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: span 2;
+}
+.index-seccion-1{
+    display: flex;
+    margin: 10px;
+    border: 5px solid black;   
+    border-radius: 10px;        
+    width: 700px;    
+    height: 350px;        
+}
+.index-seccion-map-1{
+    width: 700px;
+    height: 400px;
+    border: solid 5px black;
+    border-radius: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .item-1{
+        display: flex;
+        justify-content: center;
+        grid-column: span 2;
+    }
+    .item-2{
+       grid-column: span 2;
+       
+    }
+    .item-3{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column: span 2;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .item-1{
+        display: flex;
+        justify-content: center;
+        grid-column: span 2;
+    }
+    .item-2{
+       grid-column: span 2;
+       
+    }
+    .item-3{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column: span 2;
+    }
+}
+.logo-facebook-cs {
+    width: 80px;
+    height: 80px
+}
+.logo-instagram-cs  {
+    width: 80px;
+    height: 80px;
+}
+
+.logo-whatsapp-cs {
+    width: 80px;
+    height: 80px;
+}
+
+.ul-cs-link {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.li-cs-link {
+    padding: 0;
+    margin: 0;
+}
+.d-block{
+    width: 200px;
+    height: 800px;
+    display: flex;
+}
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.carousel-inner{
+    display: flex;
+    width: 763px;
+    height: 600px;
+}
+.carousel{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
